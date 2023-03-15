@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: scroll;
+}
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding: 0 20px;
+  height: 100%;
+}
+.header-left {
+  float: left;
+  padding: 20px;
+}
+.header-left img {
+  display: inline-block;
+  width: 100px;
+}
+.header-right {
+  float: right;
+  height: 21px;
+}
+.btn-login {
+  background-color: rgba(240, 255, 255, 0.818);
+  display: inline-block;
+  padding: 22px 25px;
+  height: 21px;
+  color: #fff;
+  opacity: 0.8;
+}
+.btn-login:hover {
+  background-color: rgba(240, 255, 255);
+  color: black;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.top-wrapper {
+  box-sizing: border-box;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 150px;
+}
+.top-message h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.top-message p {
+  color: white;
+  margin-bottom: 1px;
+}
+.btn-top {
+  margin: 12px;
+  /* background-color: aqua; */
+}
+.email {
+  background-color: #239b76;
+  display: inline-block;
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  opacity: 0.8;
+}
+.btn-top p {
+  color: #fff;
+  margin: 5px;
+}
+.facebook {
+  background-color: #3b5998;
+  display: inline-block;
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+  display: inline-block;
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  opacity: 0.8;
+}
+.email:hover,
+.twitter:hover,
+.facebook:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.lessons {
+  text-align: center;
+  padding: 25px;
+  /* margin: 30px; */
+  height: 500px;
+  background-color: #f7f7f7;
+}
+/* .lessons .container {
+  margin-bottom: 100px !important;
+} */
+.les-heading h3 {
+  font-weight: normal;
+  margin: 20px;
+}
+.lesson-itm {
+  float: left;
+  width: 25%;
+  margin-bottom: 130px;
+}
+.icon {
+  position: relative;
+}
+.icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: #fff;
+}
+.txt-contents {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.message {
+  height: 130px;
+  /* background-color: aquamarine; */
+  text-align: center;
+  padding: 50px;
+  /* margin-top: 20px; */
+}
+.message h3 {
+  font-weight: normal;
+  margin: 5px;
+}
+.message p {
+  margin: 5px;
+}
+.btn-message {
+  /* background-color: brown; */
+  height: 50px;
+  padding: 0px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid black;
+}
+.btn-message a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 15px;
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  background-color: #239b76;
+  color: #fff;
+  box-shadow: 0 7px #1a4a3b;
+}
+
+.btn-message a:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer {
+  padding-top: 20px;
+  padding-left: 50px;
+  background-color: #3b5998;
+  height: 70px;
+  color: #fff;
+}
+footer img {
+  display: inline-block;
+  width: 100px;
+}
