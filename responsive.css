@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1000px) {
+  .top-wrapper {
+    padding: 50px;
+    height: 100%;
+  }
+  .top-message {
+    text-align: left;
+  }
+  .top-message h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+}
